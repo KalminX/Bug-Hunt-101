@@ -1,0 +1,4 @@
+Target URL: http://localhost:8080
+Target Type: Local vulnerable web application (DVWA)
+Scope: Localhost only
+
