@@ -68,21 +68,25 @@ Detailed findings can be found in the `reports/` directory.
 ## 📁 Project Structure
 
 ```
-
 Bug-Hunt-101/
 ├── README.md
-├── recon/
-│   ├── target.txt
-│   └── nmap.txt
-├── screenshots/
-│   ├── dvwa_login_page.png
-|   ├── first_page_after_login.png
-│   ├── nmap_scan.png
-│   ├── sqli_normal.png
-│   └── sqli_exploit.png
-└── reports/
-└── sql_injection.md
-
+├── recon
+│   ├── nmap.txt
+│   └── target.txt
+├── reports
+│   ├── sql_injection.md
+│   └── xss_report.md
+└── screenshots
+    ├── after_creating_and_reseting_database.png
+    ├── dvwa_login_page.png
+    ├── first_page_after_login.png
+    ├── nmap_scan.png
+    ├── sql_injection
+    │   ├── sqli_exploit.png
+    │   └── sqli_normal.png
+    └── xss
+        ├── alert.png
+        └── normal_input.png
 ```
 
 ---
